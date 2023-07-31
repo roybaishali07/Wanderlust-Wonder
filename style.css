@@ -22,7 +22,7 @@ p {
     line-height: 1.7;
     word-spacing: 5px;
     padding-left: 30px;
-    padding-top: 100px;
+    padding-top: 30px;
     font-size: 22px;
     font-weight: normal; 
     max-width: 900px; 
@@ -30,7 +30,12 @@ p {
     color: brown;
     font-weight: 500;
     font-family: 'poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.left-side p{
     margin-top: 40px;
+    padding-top: 100px;
 }
 
 
