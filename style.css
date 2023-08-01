@@ -210,6 +210,11 @@ h2{
     margin-top: 250px;
 }
 
+.package{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .slider_wrapper{
     max-width: 30rem;
     margin: 0 auto;
@@ -222,6 +227,7 @@ h2{
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     border-radius: 1rem;
+    border-width: 1rem;
 }
 .slider img{
     flex: 1 0 100%;
@@ -243,11 +249,131 @@ h2{
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.5;
-    transition: opacity ease 250ms;
+    transition: opacity 0.3s ease;
 }
-.slider_nav a.active{
-    opacity: 0.75;
+.slider_nav a:active{
+    opacity: 0.8;
 }
 .slider_nav a:hover{
     opacity: 1;
+}
+.fulldisplay{
+    position : relative;
+}
+.container {
+    display: flex;
+    height: 70%;
+    width: 70%;
+    /* background-color: #00095e; */
+    position: absolute; 
+    top: 64%;
+    left: 50%;
+    margin-top : 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0,0.2);
+}
+/* left form css */
+.form {
+    padding: 20px 30px;
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    /* font-size: 20px; */
+}
+.user {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 27px;
+    padding-left: 8px;
+}
+.form textarea {
+    width: 90%;
+    padding-left: 8px;
+}
+.left {
+    margin: 10px 10px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.right {
+    margin: 10px 10px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ .btn {
+    margin-top: 20px;
+ }
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #ffffff; 
+    border: 2px solid #fcc900;
+    color: #00095e;
+    border-radius: 12px;
+    transition: all 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+ }
+.btn:hover {
+    color: white;
+    background-color: #00095e;
+    border: 2px solid #fcc900;
+}
+
+.form input:hover {
+    border: none;
+    border-bottom: 1px solid #00095e;
+}
+
+/* info css */
+.info {
+    padding: 20px 30px;
+    background-color: #00095e;
+    width: 35%;
+    height: 100%;
+}
+.info {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.info h3{
+    color: white;
+}
+.info p{
+    color: #a1a1a1;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+.icon {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 120px;
+    
+}
+.social {
+    background-color: white;
+    margin-right: 30px;
+    padding-left: 2px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    
+
 }

@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    
+}
+
+.fulldisplay {
+    height: 100vh;
+    width: 100%;
+    background-color: #f9f9fb;
+}
+
+.fulldisplay h1,h4{
+    display: flex;
+    justify-content: center;
+}
+.fulldisplay h1 {
+    color: #00095e;
+    padding-top: 80px;
+}
+
+.fulldisplay h4 {
+    padding-top: 10px;
+    color: #c8c8d7;
+}
+
+.container {
+    display: flex;
+    height: 70%;
+    width: 70%;
+    /* background-color: #00095e; */
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0,0.2);
+}
+/* left form css */
+.form {
+    padding: 20px 30px;
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    /* font-size: 20px; */
+}
+.user {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 27px;
+    padding-left: 8px;
+}
+.form textarea {
+    width: 90%;
+    padding-left: 8px;
+}
+.left {
+    margin: 10px 10px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.right {
+    margin: 10px 10px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ .btn {
+    margin-top: 20px;
+ }
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #ffffff; 
+    border: 2px solid #fcc900;
+    color: #00095e;
+    border-radius: 12px;
+    transition: all 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+ }
+.btn:hover {
+    color: white;
+    background-color: #00095e;
+    border: 2px solid #fcc900;
+}
+
+.form input:hover {
+    border: none;
+    border-bottom: 1px solid #00095e;
+}
+
+/* info css */
+.info {
+    padding: 20px 30px;
+    background-color: #00095e;
+    width: 35%;
+    height: 100%;
+}
+.info {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.info h3{
+    color: white;
+}
+.info p{
+    color: #a1a1a1;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+.icon {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 120px;
+    
+}
+.social {
+    background-color: white;
+    margin-right: 30px;
+    padding-left: 2px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    
+
+}
