@@ -260,6 +260,9 @@ nav a + a {
     margin-top: 20px;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /*Locations*/
 
@@ -277,17 +280,17 @@ nav a + a {
     padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
-    background-color: #f0f0f0; 
+    background-color: rgba(123, 204, 233, 0.471); 
     box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
     transition: background-color 0.3s ease; /* Adding a smooth transition effect */
 }
 
 .card:hover {
-    background-color: rgb(65, 57, 57);
-    border-radius: 8px;
+    background-color: rgba(21, 83, 145, 0.839);
+    border-radius: 20px;
     box-shadow: 0px 5px 16px rgba(36, 32, 32, 0.25); /* Deep grey color */
 }
 
@@ -319,7 +322,7 @@ nav a + a {
 }
 
 .card:hover p {
-    color: #fff; /* White color for the <p> tag on hover */
+    color: aliceblue; /* White color for the <p> tag on hover */
 }
 
 h2{
@@ -337,6 +340,7 @@ h2{
 
 .package{
     display: grid;
+    grid-gap: 5px;
     grid-template-columns: auto auto auto;
     place-items: center;
     
@@ -505,4 +509,21 @@ h2{
     border-radius: 50%;
     
 
+}
+.package_details{
+    background-color: rgba(176, 211, 224, 0.644);
+    padding: 10px 0 10px 0;
+    margin: 0 5px 0 5px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
+}
+.book_button{
+    background-color: yellow;
+    border: 0;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
 }
