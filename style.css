@@ -390,7 +390,7 @@ h2{
 }
 .fulldisplay{
     position : relative;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
 }
 .container {
@@ -544,3 +544,7 @@ h2{
     display: grid;
     place-items: center;
 } */
+
+#contact-us{
+    background-color: #060a31e0;
+}
