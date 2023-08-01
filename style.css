@@ -331,9 +331,15 @@ h2{
     margin-top: 250px;
 }
 
+#packages{
+    position: relative;
+}
+
 .package{
     display: grid;
     grid-template-columns: auto auto auto;
+    place-items: center;
+    
 }
 
 .slider_wrapper{
@@ -343,7 +349,7 @@ h2{
 }
 .slider{
     display: flex;
-    aspect-ratio: 3/5;
+    aspect-ratio: 4/5;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
