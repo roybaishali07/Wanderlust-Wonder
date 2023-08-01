@@ -217,7 +217,7 @@ h2{
 }
 .slider{
     display: flex;
-    aspect-ratio: 9/16;
+    aspect-ratio: 3/5;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
