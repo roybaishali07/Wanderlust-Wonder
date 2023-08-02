@@ -313,6 +313,10 @@ p{
     font-size: 30px;
 }
 
+.card:hover h3{
+    color:#FCC900;
+}
+
 .card p {
     margin-top: 5px;
     color: #010525;
