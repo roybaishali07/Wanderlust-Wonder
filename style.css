@@ -362,6 +362,10 @@ h2{
     border-radius: 1rem;
     border: 4px solid #058febb7;
 }
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
 .slider img{
     flex: 1 0 100%;
     scroll-snap-align: start;
